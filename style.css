@@ -1,9 +1,12 @@
 body{
     margin:0;
-    background: linear-gradient(45deg, rgba(68,68,68,1) 0%, rgb(41, 41, 41) 100vh);
+
+     background: linear-gradient(45deg, rgba(68,68,68,1) 0%, rgb(41, 41, 41) 100vh);
+     background-image: url("gun_metal_@2X.png");
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 13pt;
+    /* text-transform: uppercase; */
     text-align: center;
 }
 
@@ -23,14 +26,23 @@ div .content{
 
 }
 
+div.card {
+    width: 60%;
+    min-width: 345px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(87, 87, 87);
+    text-align: center;
+  }
+
 div p{
-    font-size: 15px;
-    color: lightgrey;
-    margin: 60px;
+
+    color: rgb(57, 57, 57);
+    margin: 30px;
 }
 
 div a{
-    color: lightgrey;
+    color: rgb(106, 106, 106);
     
 }
 
